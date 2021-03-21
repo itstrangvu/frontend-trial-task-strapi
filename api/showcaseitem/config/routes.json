@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/showcaseitems",
+      "handler": "showcaseitem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/showcaseitems/count",
+      "handler": "showcaseitem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/showcaseitems/:id",
+      "handler": "showcaseitem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/showcaseitems",
+      "handler": "showcaseitem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/showcaseitems/:id",
+      "handler": "showcaseitem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/showcaseitems/:id",
+      "handler": "showcaseitem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
